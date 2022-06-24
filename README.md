@@ -1,6 +1,6 @@
 # Remote Computing Dotfiles
 
-These are the dotfiles @nick-ulle uses to set up on remote servers.
+These are the dotfiles @nick-ulle uses to set up on remote computing resources.
 
 
 ## Usage
