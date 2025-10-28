@@ -1,0 +1,42 @@
+
+[character]
+success_symbol = "[●](bold green)"
+error_symbol = "[○](bold red)"
+
+[cmd_duration]
+disabled = true
+
+[conda]
+style = "yellow"
+
+[directory]
+style = "blue"
+truncation_symbol = ".../"
+
+[git_branch]
+style = "blue"
+
+[git_status]
+style = "red"
+
+[hostname]
+ssh_symbol = "" #"🌏 "
+
+[package]
+disabled = true
+
+[python]
+style = "yellow"
+
+[quarto]
+disabled = true
+
+[rlang]
+disabled = true
+
+[shell]
+disabled = false
+format = "[$indicator]($style)"
+fish_indicator = "🐟 "
+bash_indicator = "🏏 "
+
