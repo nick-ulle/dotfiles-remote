@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/nick/workshop/research/NativeCodeAnalysis/examples/convolve'
+let g:netrw_dirhist_3='/home/nick/workshop/research/NativeCodeAnalysis/examples'
+let g:netrw_dirhist_2='/home/nick/workshop/datalab/sandbox/data'
+let g:netrw_dirhist_1='/home/nick/workshop/datalab/utilities/metadata_for_files/ucdmetatools/R'
+let g:netrw_dirhist_0='/home/nick/workshop/datalab/utilities/metadata_for_files/ucdmetatools'
+let g:netrw_dirhist_9='/home/nick/workshop/datalab/utilities/metadata_for_files'
+let g:netrw_dirhist_8='/home/nick/workshop/research/NativeCodeAnalysis/examples/packages/clv/src'
+let g:netrw_dirhist_7='/home/nick/workshop/research/NativeCodeAnalysis/examples/packages/BAS'
+let g:netrw_dirhist_6='/home/nick/workshop/datalab/workshop_r-basics/renv'
+let g:netrw_dirhist_5='/home/nick/university/teach/stat33b/hw/hw3'
