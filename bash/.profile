@@ -17,6 +17,8 @@ export R_LIBS_USER=${HOME}/.config/R/library
 export R_MAKEVARS_USER=${HOME}/.config/R/makevars
 export R_PROFILE_USER=${HOME}/.config/R/rprofile
 
+export TESSDATA_PREFIX="${HOME}/.local/share/tessdata"
+
 
 # Path
 # ====
@@ -31,7 +33,15 @@ export R_PROFILE_USER=${HOME}/.config/R/rprofile
 # Add local bin to the path.
 PATH="${HOME}/.local/bin:${PATH}"
 
+# Add cargo bin to the path.
+PATH="${HOME}/.cargo/bin:${PATH}"
+
+# Add pixi bin to the path.
+PATH="${HOME}/.pixi/bin:${PATH}"
+
 # Add user environment bin to the path.
 PATH="${HOME}/env/bin:${PATH}"
 
 export PATH
+
+#. "$HOME/.cargo/env"
