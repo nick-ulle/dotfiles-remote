@@ -1,0 +1,19 @@
+[user]
+  name = Nick Ulle
+  email = nick.ulle@gmail.com
+
+[core]
+  editor = nvim
+
+[alias]
+  ls = log --graph --oneline --all -5
+  stage = add
+  staged = diff --staged
+  unstage = reset HEAD --
+
+[diff "jupyternotebook"]
+  command = git-nbdiffdriver diff
+[pull]
+  ff = only
+[credential]
+  helper = store
