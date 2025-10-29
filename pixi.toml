@@ -21,3 +21,4 @@ cmd = "stow --delete {{ src }}"
 description = "Uninstall the dotfiles."
 
 [dependencies]
+stow = ">=2.3.1,<3"

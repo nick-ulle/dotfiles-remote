@@ -70,11 +70,6 @@ channels = ["conda-forge"]
 dependencies = { bat = "*" }
 exposed = { bat = "bat" }
 
-[envs.stow]
-channels = ["conda-forge"]
-dependencies = { stow = "*" }
-exposed = { chkstow = "chkstow", stow = "stow" }
-
 [envs.git]
 channels = ["conda-forge"]
 dependencies = { git = "*" }
