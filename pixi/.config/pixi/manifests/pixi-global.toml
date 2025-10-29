@@ -57,7 +57,7 @@ exposed = { dust = "dust" }
 
 [envs.nvim]
 channels = ["conda-forge"]
-dependencies = { nvim = "*" }
+dependencies = { nvim = "*" , lua = "<5.2", luarocks = "*" , tree-sitter-cli = "*" , nodejs = "*" }
 exposed = { nvim = "nvim" }
 
 [envs.tmux]
