@@ -5,25 +5,21 @@ These are the dotfiles @nick-ulle uses to set up on remote computing resources.
 
 ## Usage
 
-Requirements:
+This repository depends on [Pixi][] to install dotfiles and global packages.
 
-* [GNU Stow](https://www.gnu.org/software/stow/)
+[Pixi]: https://pixi.sh/
 
 To install:
 ```bash
-git clone https://github.com/nick-ulle/dotfiles-remote ~/.dotfiles
-cd ~/.dotfiles
-stow */
+pixi run install
 ```
 
 To reinstall (after edits):
 ```bash
-cd ~/.dotfiles
-stow --restow */
+pixi run reinstall
 ```
 
 To uninstall:
 ```bash
-cd ~/.dotfiles
-stow --delete */
+pixi run uninstall
 ```
