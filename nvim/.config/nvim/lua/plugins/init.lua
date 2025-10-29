@@ -20,18 +20,10 @@ return {
   },
   {
     "folke/which-key.nvim",
-    config = function()
-      vim.o.timeoutlen = 800
-      require("which-key").setup {
-        layout = {
-          height = { min = 2, max = 10 }
-        },
-        popup_mappings = {
-          scroll_down = "<down>",
-          scroll_up = "<up>",
-        }
-      }
-    end
+    keys = {
+      scroll_down = "<down>",
+      scroll_up = "<up>",
+    },
   },
 
   -- Behaviors
@@ -52,9 +44,13 @@ return {
   },
   {
     "kylechui/nvim-surround",
-    tag = "v1.0.0",
-    lazy = false,
-    opts = {},
+    version = "^3.0.0", -- Use for stability; omit to use `main` branch for the latest features
+    event = "VeryLazy",
+    config = function()
+        require("nvim-surround").setup({
+            -- Configuration here, or leave empty to use defaults
+        })
+    end
   },
 
   -- Vimscript plugins
