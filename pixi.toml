@@ -1,0 +1,23 @@
+[workspace]
+authors = ["Nick Ulle <nick.ulle@gmail.com>"]
+channels = ["conda-forge"]
+name = "dotfiles-remote"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks.install]
+args = [{ "arg" = "src", "default" = "*/" }]
+cmd = "stow {{ src }}"
+description = "Install the dotfiles."
+
+[tasks.reinstall]
+args = [{ "arg" = "src", "default" = "*/" }]
+cmd = "stow --restow {{ src }}"
+description = "Reinstall the dotfiles."
+
+[tasks.uninstall]
+args = [{ "arg" = "src", "default" = "*/" }]
+cmd = "stow --delete {{ src }}"
+description = "Uninstall the dotfiles."
+
+[dependencies]
